@@ -80,9 +80,12 @@ body {
 }
 
 .header-text {
-    margin-top: 15%;
+    margin-top: 8%;
     display: flex;
     gap: 2rem;
+    align-items: center;
+    width: 1200px;
+    padding: 1rem;
     font-size: 30px;
     justify-content: space-between;
 }
@@ -107,10 +110,12 @@ body {
     font-size: 17px;
 }
 .s-container img{
-    height: 250px;
+    height: 400px;
     width: 400px;
+    border-radius: 2rem;
 }
 #about {
+    margin-top: 0;
     padding: 88px 0;
     color: rgb(255, 238, 238);
 }
